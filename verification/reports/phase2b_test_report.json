@@ -1,0 +1,242 @@
+{
+  "environment": {
+    "python_version": "3.14.4 (main, Apr 16 2026, 00:00:00) [GCC 16.0.1 20260321 (Red Hat 16.0.1-0)]",
+    "sympy_available": false,
+    "dependency_policy": "standard-library-only"
+  },
+  "grammar_version": "1.0",
+  "fixture_results": [
+    {
+      "claim_id": "prop-pass-001",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "actual_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-002",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "actual_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-003",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "actual_reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-004",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "actual_reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-005",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "actual_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-006",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "expected_reason_code": "LOGIC_COUNTEREXAMPLE",
+      "actual_reason_code": "LOGIC_COUNTEREXAMPLE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-007",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "expected_reason_code": "LOGIC_COUNTEREXAMPLE",
+      "actual_reason_code": "LOGIC_COUNTEREXAMPLE",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-008",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "expected_reason_code": "NOT_TAUTOLOGY",
+      "actual_reason_code": "NOT_TAUTOLOGY",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-009",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-010",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-011",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-012",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-013",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-014",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-015",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-016",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "expected_reason_code": "LOGIC_PARSE_ERROR",
+      "actual_reason_code": "LOGIC_PARSE_ERROR",
+      "passed": true,
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-017",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "actual_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "passed": true,
+      "evidence_present": true
+    }
+  ],
+  "adversarial_results": [
+    {
+      "case_id": "chained_biconditional",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR"
+    },
+    {
+      "case_id": "trailing_implication",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR"
+    },
+    {
+      "case_id": "unmatched_parenthesis",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR"
+    },
+    {
+      "case_id": "adjacent_propositions",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR"
+    },
+    {
+      "case_id": "unsupported_word_operator",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR"
+    }
+  ],
+  "mutation_results": [
+    {
+      "mutation_id": "implication_associativity",
+      "temporary_only": true,
+      "restoration_method": "try/finally write with SHA-256 verification",
+      "before_sha": "b50e5dcda205682e503a064e7ab56f8441b819cc378e00b693da46ad77973a63",
+      "after_sha": "b50e5dcda205682e503a064e7ab56f8441b819cc378e00b693da46ad77973a63",
+      "actual_mutated_behavior": "Parse Error: Trailing or adjacent tokens at offset 7: '->'",
+      "test_command": "/usr/bin/python3 -m unittest verification/tests/test_propositional_text.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    }
+  ],
+  "summary": {
+    "fixture_total": 17,
+    "fixture_passed": 17,
+    "adversarial_total": 5,
+    "adversarial_passed": 5,
+    "mutation_total": 1,
+    "mutation_detected": 1
+  },
+  "deferred_capabilities": [
+    "arbitrary English math interpretation",
+    "LaTeX logic parsing",
+    "quantifiers",
+    "predicates",
+    "proofs",
+    "tutor integration"
+  ]
+}

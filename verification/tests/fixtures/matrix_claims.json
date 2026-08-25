@@ -1,0 +1,5 @@
+[
+ {"claim_id":"matrix-pass-001","kind":"matrix_expression","operation":"multiply","lhs":[[1,2],[3,4]],"rhs":[[5,6],[7,8]],"claimed":[[19,22],[43,50]],"source":{"corpus_path":"corpus/active/ch05/basic-definitions-and-operations.md","section":"5"}},
+ {"claim_id":"matrix-fail-001","kind":"matrix_expression","operation":"multiply","lhs":[[1,2],[3,4]],"rhs":[[5,6],[7,8]],"claimed":[[1,2],[3,4]]},
+ {"claim_id":"matrix-unverifiable-001","kind":"matrix_expression","operation":"multiply","lhs":[[1,2]],"rhs":[[1,2]],"claimed":[[1]]}
+]

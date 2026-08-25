@@ -1,0 +1,6 @@
+[
+ {"claim_id":"set-pass-001","kind":"finite_set_expression","universe":[1,2,3,4],"sets":{"A":[1,2],"B":[2,3]},"lhs":{"op":"union","args":["A","B"]},"rhs":[1,2,3]},
+ {"claim_id":"set-pass-002","kind":"finite_set_expression","universe":[1,2,3,4],"sets":{"A":[1,2]},"lhs":{"op":"complement","arg":"A"},"rhs":[3,4]},
+ {"claim_id":"set-fail-001","kind":"finite_set_expression","universe":[1,2,3],"sets":{"A":[1,2],"B":[2,3]},"lhs":{"op":"difference","args":["A","B"]},"rhs":{"op":"difference","args":["B","A"]},"source":{"corpus_path":"corpus/active/ch01/basic-set-operations.md","section":"1.2"}},
+ {"claim_id":"set-unverifiable-001","kind":"finite_set_expression","sets":{"A":[1]},"lhs":{"op":"complement","arg":"A"},"rhs":[]}
+]

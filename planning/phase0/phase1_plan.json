@@ -1,0 +1,58 @@
+{
+  "phase": "Phase 1 formulation only; no converter code",
+  "eligible_source_classes": [
+    "frontmatter",
+    "section_content",
+    "chapter_landing",
+    "appendix_content",
+    "index",
+    "backmatter"
+  ],
+  "excluded_source_classes": [
+    "navigation_or_support",
+    "malformed_or_unreadable",
+    "unknown"
+  ],
+  "math_requirements": [
+    "Preserve .process-math nodes.",
+    "Preserve script[type^=math/tex] nodes verbatim."
+  ],
+  "semantic_taxonomy_found": {
+    "definitions": 148,
+    "theorem_proposition_lemma_corollary": 73,
+    "examples": 205,
+    "exercises": 852,
+    "sage_cells": 62,
+    "tables": 52,
+    "figures": 192,
+    "images": 370
+  },
+  "fixture_candidates": [
+    "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+    "DM TXT/1-Set-Theory/ads Binary Representation of Positive Integers.html",
+    "DM TXT/1-Set-Theory/ads Cartesian Products and Power Sets.html",
+    "DM TXT/1-Set-Theory/ads Set Notation and Relations.html",
+    "DM TXT/1-Set-Theory/ads Summation Notation and Generalizations.html",
+    "DM TXT/12-More_Matrix_Algebra/ads An Introduction to Vector Spaces.html"
+  ],
+  "frontmatter_required": [
+    "title",
+    "displayed_section_or_chapter",
+    "scope_class",
+    "source_relative_path",
+    "source_sha256",
+    "source_pretext_ids"
+  ],
+  "test_gates": [
+    "Fidelity: math-node and semantic-block counts meet expected preserved counts.",
+    "Provenance: output front matter matches inventory path and SHA-256.",
+    "Asset resolution: every retained local asset link resolves or is explicitly flagged.",
+    "Idempotence: a second conversion run produces byte-identical outputs.",
+    "No default retrieval of reference_solution outputs."
+  ],
+  "unresolved_ambiguities": [
+    "Confirm desired canonical output root before Phase 1.",
+    "Review unresolved local assets before converting them.",
+    "Known extraction quirk: the index page stores displayed_section_or_chapter as 'Index Index'; Phase 1 frontmatter extraction must de-duplicate this label."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "rec-pass-finite": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "RECURRENCE_EXHAUSTIVE_FINITE"
+  },
+  "rec-unv-general": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "RECURRENCE_FINITE_EVIDENCE_ONLY"
+  },
+  "rec-fail-candidate": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "RECURRENCE_SUBSTITUTION_MISMATCH"
+  },
+  "rec-fail-init": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "RECURRENCE_INITIAL_VALUE_MISMATCH"
+  },
+  "rec-unv-syntax": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "EXACT_EXPR_UNSUPPORTED"
+  },
+  "rec-unv-domain": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "RECURRENCE_DOMAIN_ERROR"
+  },
+  "ind-fail-prop-finite": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "INDUCTION_PROPERTY_COUNTEREXAMPLE"
+  },
+  "ind-fail-prop-general": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "INDUCTION_PROPERTY_COUNTEREXAMPLE"
+  },
+  "ind-pass-finite": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "INDUCTION_EXHAUSTIVE_FINITE"
+  },
+  "ind-unv-general": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "INDUCTION_FINITE_EVIDENCE_ONLY"
+  },
+  "ind-fail-transition": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "INDUCTION_TRANSITION_FAIL"
+  },
+  "ind-prov-source": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "INDUCTION_FINITE_EVIDENCE_ONLY"
+  }
+}

@@ -1,0 +1,5 @@
+[
+ {"claim_id":"logic-pass-001","kind":"logic_equivalence","variables":["p","q"],"lhs":{"op":"implies","args":["p","q"]},"rhs":{"op":"or","args":[{"op":"not","arg":"p"},"q"]}},
+ {"claim_id":"logic-fail-001","kind":"logic_equivalence","variables":["p","q"],"lhs":{"op":"and","args":["p","q"]},"rhs":{"op":"or","args":["p","q"]}},
+ {"claim_id":"logic-unverifiable-001","kind":"logic_equivalence","variables":["p"],"lhs":{"op":"or","args":["p","q"]},"rhs":"p"}
+]

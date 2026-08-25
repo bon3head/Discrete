@@ -1,0 +1,11 @@
+{
+  "claim_kinds": {
+    "logic_equivalence": {"required": ["claim_id", "kind", "variables", "lhs", "rhs"]},
+    "truth_table": {"required": ["claim_id", "kind", "variables", "expression"], "one_of": ["expected_vector", "property"]},
+    "finite_set_expression": {"required": ["claim_id", "kind", "universe", "sets", "lhs", "rhs"]},
+    "counting_identity": {"required": ["claim_id", "kind", "operation", "args", "claimed"]},
+    "matrix_expression": {"required": ["claim_id", "kind", "operation", "lhs", "rhs"], "claimed_optional": true}
+  },
+  "verdicts": ["PASS", "FAIL", "UNVERIFIABLE"],
+  "response_fields": ["verdict", "kind", "reason_code", "evidence", "limitations", "source"]
+}

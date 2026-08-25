@@ -1,0 +1,289 @@
+[
+  {
+    "claim_id": "rec-pass-finite",
+    "kind": "recurrence_substitution",
+    "claim_scope": "finite",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 1
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "add",
+      "args": [
+        {
+          "op": "mul",
+          "args": [
+            2,
+            {
+              "var": "n"
+            }
+          ]
+        },
+        1
+      ]
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 12
+    }
+  },
+  {
+    "claim_id": "rec-unv-general",
+    "kind": "recurrence_substitution",
+    "claim_scope": "general",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 1
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "add",
+      "args": [
+        {
+          "op": "mul",
+          "args": [
+            2,
+            {
+              "var": "n"
+            }
+          ]
+        },
+        1
+      ]
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 12
+    }
+  },
+  {
+    "claim_id": "rec-fail-candidate",
+    "kind": "recurrence_substitution",
+    "claim_scope": "general",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 1
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "add",
+      "args": [
+        {
+          "var": "n"
+        },
+        1
+      ]
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 12
+    }
+  },
+  {
+    "claim_id": "rec-fail-init",
+    "kind": "recurrence_substitution",
+    "claim_scope": "general",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 2
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "add",
+      "args": [
+        {
+          "op": "mul",
+          "args": [
+            2,
+            {
+              "var": "n"
+            }
+          ]
+        },
+        1
+      ]
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 12
+    }
+  },
+  {
+    "claim_id": "rec-unv-syntax",
+    "kind": "recurrence_substitution",
+    "claim_scope": "finite",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 1
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "sin",
+      "args": [
+        {
+          "var": "n"
+        }
+      ]
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 12
+    }
+  },
+  {
+    "claim_id": "rec-unv-domain",
+    "kind": "recurrence_substitution",
+    "claim_scope": "finite",
+    "sequence": "a",
+    "index_variable": "n",
+    "initial_values": {
+      "0": 1
+    },
+    "recurrence": {
+      "valid_from": 1,
+      "rhs": {
+        "op": "add",
+        "args": [
+          {
+            "seq": "a",
+            "at": {
+              "op": "sub",
+              "args": [
+                {
+                  "var": "n"
+                },
+                1
+              ]
+            }
+          },
+          2
+        ]
+      }
+    },
+    "candidate": {
+      "op": "add",
+      "args": [
+        {
+          "op": "mul",
+          "args": [
+            2,
+            {
+              "var": "n"
+            }
+          ]
+        },
+        1
+      ]
+    },
+    "check_domain": {
+      "start": 10,
+      "end": 12
+    }
+  }
+]

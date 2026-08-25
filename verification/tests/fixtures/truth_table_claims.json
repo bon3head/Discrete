@@ -1,0 +1,6 @@
+[
+ {"claim_id":"truth-pass-tautology","kind":"truth_table","variables":["p"],"expression":{"op":"or","args":["p",{"op":"not","arg":"p"}]},"property":"tautology"},
+ {"claim_id":"truth-pass-contradiction","kind":"truth_table","variables":["p"],"expression":{"op":"and","args":["p",{"op":"not","arg":"p"}]},"property":"contradiction"},
+ {"claim_id":"truth-pass-equivalence","kind":"truth_table","variables":["p","q"],"lhs":{"op":"implies","args":["p","q"]},"rhs":{"op":"or","args":[{"op":"not","arg":"p"},"q"]},"property":"equivalence"},
+ {"claim_id":"truth-fail-vector","kind":"truth_table","variables":["p"],"expression":"p","expected_vector":[true,true]}
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "claim_id": "ind-fail-prop-finite",
+    "kind": "induction_evidence",
+    "claim_scope": "finite",
+    "index_variable": "n",
+    "property": {
+      "op": "le",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 0
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 2,
+      "end": 5
+    }
+  },
+  {
+    "claim_id": "ind-fail-prop-general",
+    "kind": "induction_evidence",
+    "claim_scope": "general",
+    "index_variable": "n",
+    "property": {
+      "op": "le",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 0
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 2,
+      "end": 5
+    }
+  },
+  {
+    "claim_id": "ind-pass-finite",
+    "kind": "induction_evidence",
+    "claim_scope": "finite",
+    "index_variable": "n",
+    "property": {
+      "op": "ge",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 0
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "claim_id": "ind-unv-general",
+    "kind": "induction_evidence",
+    "claim_scope": "general",
+    "index_variable": "n",
+    "property": {
+      "op": "ge",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 0
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "claim_id": "ind-fail-transition",
+    "kind": "induction_evidence",
+    "claim_scope": "general",
+    "index_variable": "n",
+    "property": {
+      "op": "le",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 2
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "claim_id": "ind-prov-source",
+    "kind": "induction_evidence",
+    "claim_scope": "general",
+    "index_variable": "n",
+    "property": {
+      "op": "ge",
+      "lhs": {
+        "var": "n"
+      },
+      "rhs": 0
+    },
+    "base_indices": [
+      0
+    ],
+    "transition": {
+      "from": "k",
+      "to": {
+        "op": "add",
+        "args": [
+          {
+            "var": "k"
+          },
+          1
+        ]
+      }
+    },
+    "check_domain": {
+      "start": 0,
+      "end": 5
+    },
+    "source": {
+      "corpus_path": "foo.md"
+    }
+  }
+]

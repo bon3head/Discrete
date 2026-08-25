@@ -1,0 +1,11 @@
+# Phase 2C Test Matrix
+- Recurrence finite PASS
+- Recurrence general UNVERIFIABLE (finite evidence)
+- Recurrence FAIL wrong candidate
+- Recurrence FAIL wrong initial value
+- Recurrence UNVERIFIABLE unsupported syntax
+- Induction finite PASS
+- Induction general UNVERIFIABLE
+- Induction FAIL base case
+- Induction FAIL transition
+- Induction UNVERIFIABLE out of bounds / unsupported

@@ -1,0 +1,6 @@
+[
+ {"claim_id":"count-pass-001","kind":"counting_identity","operation":"factorial","args":[5],"claimed":120},
+ {"claim_id":"count-pass-002","kind":"counting_identity","operation":"binomial","args":[5,2],"claimed":10,"source":{"corpus_path":"corpus/active/ch02/combinations-and-the-binomial-theorem.md","section":"2"}},
+ {"claim_id":"count-fail-001","kind":"counting_identity","operation":"permutation","args":[5,2],"claimed":15},
+ {"claim_id":"count-unverifiable-001","kind":"counting_identity","operation":"combination","args":[-1,2],"claimed":0}
+]

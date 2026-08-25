@@ -1,0 +1,23 @@
+{
+  "recurrence_substitution": {
+    "required": [
+      "claim_scope",
+      "sequence",
+      "index_variable",
+      "initial_values",
+      "recurrence",
+      "candidate",
+      "check_domain"
+    ]
+  },
+  "induction_evidence": {
+    "required": [
+      "claim_scope",
+      "index_variable",
+      "property",
+      "base_indices",
+      "transition",
+      "check_domain"
+    ]
+  }
+}

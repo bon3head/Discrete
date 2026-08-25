@@ -1,0 +1,506 @@
+{
+  "environment": {
+    "python_version": "3.14.4 (main, Apr 16 2026, 00:00:00) [GCC 16.0.1 20260321 (Red Hat 16.0.1-0)]",
+    "sympy_available": false,
+    "dependency_policy": "standard-library-only"
+  },
+  "fixture_results": [
+    {
+      "claim_id": "logic-pass-001",
+      "kind": "logic_equivalence",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "logic-fail-001",
+      "kind": "logic_equivalence",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "LOGIC_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "logic-unverifiable-001",
+      "kind": "logic_equivalence",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_MALFORMED_OR_UNDECLARED",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "set-pass-001",
+      "kind": "finite_set_expression",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "FINITE_SET_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "set-pass-002",
+      "kind": "finite_set_expression",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "FINITE_SET_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "set-fail-001",
+      "kind": "finite_set_expression",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "SET_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "set-unverifiable-001",
+      "kind": "finite_set_expression",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "SET_MALFORMED_OR_MISSING_UNIVERSE",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "count-pass-001",
+      "kind": "counting_identity",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "COUNTING_EXACT_INTEGER",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "count-pass-002",
+      "kind": "counting_identity",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "COUNTING_EXACT_INTEGER",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "count-fail-001",
+      "kind": "counting_identity",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "COUNTING_RESULT_MISMATCH",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "count-unverifiable-001",
+      "kind": "counting_identity",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "COUNTING_INVALID_DOMAIN_OR_SCHEMA",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "matrix-pass-001",
+      "kind": "matrix_expression",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "MATRIX_EXACT_ARITHMETIC",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "matrix-fail-001",
+      "kind": "matrix_expression",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "MATRIX_RESULT_MISMATCH",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "matrix-unverifiable-001",
+      "kind": "matrix_expression",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "MATRIX_INCOMPATIBLE_DIMENSIONS",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "truth-pass-tautology",
+      "kind": "truth_table",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "truth-pass-contradiction",
+      "kind": "truth_table",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "truth-pass-equivalence",
+      "kind": "truth_table",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "truth-fail-vector",
+      "kind": "truth_table",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "TRUTH_VECTOR_MISMATCH",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-001",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-002",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-003",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-004",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_EXHAUSTIVE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-005",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-006",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "LOGIC_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-007",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "LOGIC_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-fail-008",
+      "kind": "propositional_text",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "NOT_TAUTOLOGY",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-009",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-010",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-011",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-012",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-013",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-014",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-015",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-err-016",
+      "kind": "propositional_text",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_PARSE_ERROR",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "prop-pass-017",
+      "kind": "propositional_text",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "rec-pass-finite",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "RECURRENCE_EXHAUSTIVE_FINITE",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "rec-unv-general",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "RECURRENCE_FINITE_EVIDENCE_ONLY",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "rec-fail-candidate",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "RECURRENCE_SUBSTITUTION_MISMATCH",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "rec-fail-init",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "RECURRENCE_INITIAL_VALUE_MISMATCH",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "rec-unv-syntax",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "EXACT_EXPR_UNSUPPORTED",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "rec-unv-domain",
+      "kind": "recurrence_substitution",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "RECURRENCE_DOMAIN_ERROR",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "ind-fail-prop-finite",
+      "kind": "induction_evidence",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "INDUCTION_PROPERTY_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "ind-fail-prop-general",
+      "kind": "induction_evidence",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "INDUCTION_PROPERTY_COUNTEREXAMPLE",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "ind-pass-finite",
+      "kind": "induction_evidence",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true,
+      "reason_code": "INDUCTION_EXHAUSTIVE_FINITE",
+      "evidence_present": false
+    },
+    {
+      "claim_id": "ind-unv-general",
+      "kind": "induction_evidence",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "INDUCTION_FINITE_EVIDENCE_ONLY",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "ind-fail-transition",
+      "kind": "induction_evidence",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true,
+      "reason_code": "INDUCTION_TRANSITION_FAIL",
+      "evidence_present": true
+    },
+    {
+      "claim_id": "ind-prov-source",
+      "kind": "induction_evidence",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "INDUCTION_FINITE_EVIDENCE_ONLY",
+      "evidence_present": true
+    }
+  ],
+  "adversarial_results": [
+    {
+      "case_id": "malformed_tt",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "TRUTH_TABLE_MALFORMED"
+    },
+    {
+      "case_id": "matrix_incompatible_add",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "MATRIX_INCOMPATIBLE_DIMENSIONS"
+    },
+    {
+      "case_id": "matrix_empty",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "MATRIX_INVALID_OR_INCOMPATIBLE"
+    },
+    {
+      "case_id": "unsupported_kind",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "UNSUPPORTED_CLAIM_KIND"
+    },
+    {
+      "case_id": "malformed_logic",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true,
+      "reason_code": "LOGIC_MALFORMED_OR_UNDECLARED"
+    }
+  ],
+  "mutation_results": [
+    {
+      "mutation_id": "logic_equivalence_force_pass",
+      "temporary_only": true,
+      "test_command": "/usr/bin/python3 -m unittest discover -s verification/tests -p test_logic.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    },
+    {
+      "mutation_id": "counting_accept_false",
+      "temporary_only": true,
+      "test_command": "/usr/bin/python3 -m unittest discover -s verification/tests -p test_counting.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    },
+    {
+      "mutation_id": "matrices_force_incorrect",
+      "temporary_only": true,
+      "test_command": "/usr/bin/python3 -m unittest discover -s verification/tests -p test_matrices.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    },
+    {
+      "mutation_id": "sets_bypass_universe",
+      "temporary_only": true,
+      "test_command": "/usr/bin/python3 -m unittest discover -s verification/tests -p test_sets.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    }
+  ],
+  "summary": {
+    "fixture_total": 47,
+    "fixture_passed": 47,
+    "adversarial_total": 5,
+    "adversarial_passed": 5,
+    "mutation_total": 4,
+    "mutation_detected": 4
+  }
+}

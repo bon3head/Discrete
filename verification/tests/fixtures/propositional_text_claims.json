@@ -1,0 +1,121 @@
+[
+  {
+    "claim_id": "prop-pass-001",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p -> q",
+    "rhs_text": "~p | q"
+  },
+  {
+    "claim_id": "prop-pass-002",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "~(p & q)",
+    "rhs_text": "~p | ~q"
+  },
+  {
+    "claim_id": "prop-pass-003",
+    "kind": "propositional_text",
+    "mode": "property",
+    "property": "tautology",
+    "expression_text": "(p | ~p)"
+  },
+  {
+    "claim_id": "prop-pass-004",
+    "kind": "propositional_text",
+    "mode": "property",
+    "property": "contradiction",
+    "expression_text": "(p & ~p)"
+  },
+  {
+    "claim_id": "prop-pass-005",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p \u2227 q \u2194 r",
+    "rhs_text": "p & q <-> r"
+  },
+  {
+    "claim_id": "prop-fail-006",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p & q",
+    "rhs_text": "p | q"
+  },
+  {
+    "claim_id": "prop-fail-007",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p -> q",
+    "rhs_text": "q -> p"
+  },
+  {
+    "claim_id": "prop-fail-008",
+    "kind": "propositional_text",
+    "mode": "property",
+    "property": "tautology",
+    "expression_text": "p & ~p"
+  },
+  {
+    "claim_id": "prop-err-009",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p <-> q <-> r",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-010",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p ->",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-011",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "(p | q",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-012",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p q",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-013",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p and q",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-014",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "\\neg p",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-015",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": " ",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-err-016",
+    "kind": "propositional_text",
+    "mode": "unknown_mode",
+    "lhs_text": "p",
+    "rhs_text": "p"
+  },
+  {
+    "claim_id": "prop-pass-017",
+    "kind": "propositional_text",
+    "mode": "equivalence",
+    "lhs_text": "p -> q -> r",
+    "rhs_text": "p -> (q -> r)"
+  }
+]

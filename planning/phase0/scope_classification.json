@@ -1,0 +1,467 @@
+{
+  "generated_at_utc": "2026-08-25T16:00:43.445619+00:00",
+  "counts": {
+    "active_candidate": 49,
+    "deferred_candidate": 14,
+    "reference": 12,
+    "reference_solution": 1
+  },
+  "records": [
+    {
+      "relative_path": "ads Applied Discrete Structures.html",
+      "classification": "frontmatter",
+      "scope_class": "reference",
+      "title": "ads Applied Discrete Structures"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Basic Set Operations"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Binary Representation of Positive Integers.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Binary Representation of Positive Integers"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Cartesian Products and Power Sets.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Cartesian Products and Power Sets"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Set Notation and Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Set Notation and Relations"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Set Theory.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Set Theory"
+    },
+    {
+      "relative_path": "DM TXT/1-Set-Theory/ads Summation Notation and Generalizations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Summation Notation and Generalizations"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads An Introduction to Vector Spaces.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads An Introduction to Vector Spaces"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Linear Equations over the Integers Mod 2.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Linear Equations over the Integers Mod 2"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Matrix Inversion.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Matrix Inversion"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads More Matrix Algebra.html",
+      "classification": "chapter_landing",
+      "scope_class": "deferred_candidate",
+      "title": "ads More Matrix Algebra"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Some Applications.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Some Applications"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Systems of Linear Equations.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Systems of Linear Equations"
+    },
+    {
+      "relative_path": "DM TXT/12-More_Matrix_Algebra/ads The Diagonalization Process.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads The Diagonalization Process"
+    },
+    {
+      "relative_path": "DM TXT/2-Combinatorics/ads Basic Counting Techniques - The Rule of Products.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Basic Counting Techniques - The Rule of Products"
+    },
+    {
+      "relative_path": "DM TXT/2-Combinatorics/ads Combinations and the Binomial Theorem.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Combinations and the Binomial Theorem"
+    },
+    {
+      "relative_path": "DM TXT/2-Combinatorics/ads Combinatorics.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Combinatorics"
+    },
+    {
+      "relative_path": "DM TXT/2-Combinatorics/ads Partitions of Sets and the Law of Addition.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Partitions of Sets and the Law of Addition"
+    },
+    {
+      "relative_path": "DM TXT/2-Combinatorics/ads Permutations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Permutations"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads A Review of Methods of Proof.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads A Review of Methods of Proof"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Equivalence and Implication.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Equivalence and Implication"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Logic.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Logic"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Mathematical Induction.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Mathematical Induction"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Mathematical Systems and Proofs.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Mathematical Systems and Proofs"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Propositions and Logical Operators.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Propositions and Logical Operators"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Propositions over a Universe.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Propositions over a Universe"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Quantifiers.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Quantifiers"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads The Laws of Logic.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads The Laws of Logic"
+    },
+    {
+      "relative_path": "DM TXT/3-Logic/ads Truth Tables and Propositions Generated by a Set.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Truth Tables and Propositions Generated by a Set"
+    },
+    {
+      "relative_path": "DM TXT/4-More_on_Sets/ads Laws of Set Theory.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Laws of Set Theory"
+    },
+    {
+      "relative_path": "DM TXT/4-More_on_Sets/ads Methods of Proof for Sets.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Methods of Proof for Sets"
+    },
+    {
+      "relative_path": "DM TXT/4-More_on_Sets/ads Minsets.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Minsets"
+    },
+    {
+      "relative_path": "DM TXT/4-More_on_Sets/ads More on Sets.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads More on Sets"
+    },
+    {
+      "relative_path": "DM TXT/4-More_on_Sets/ads The Duality Principle.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads The Duality Principle"
+    },
+    {
+      "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Basic Definitions and Operations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Basic Definitions and Operations"
+    },
+    {
+      "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Introduction to Matrix Algebra.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Introduction to Matrix Algebra"
+    },
+    {
+      "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Laws of Matrix Algebra.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Laws of Matrix Algebra"
+    },
+    {
+      "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Matrix Oddities.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Matrix Oddities"
+    },
+    {
+      "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Special Types of Matrices.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Special Types of Matrices"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Basic Definitions.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Basic Definitions"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Closure Operations on Relations"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Graphs of Relations on a Set"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Matrices of Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Matrices of Relations"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Properties of Relations"
+    },
+    {
+      "relative_path": "DM TXT/6-Relations/ads Relations.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Relations"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Basic Notions of Probability.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Basic Notions of Probability"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Binomial Processes.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Binomial Processes"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Definition and Notation.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Definition and Notation"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Function Composition.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Function Composition"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Functions and Probability.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Functions and Probability"
+    },
+    {
+      "relative_path": "DM TXT/7-Functions_and_Probability/ads Properties of Functions.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Properties of Functions"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Generating Functions.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Generating Functions"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Recurrence Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Recurrence Relations"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Recursion and Recurrence Relations.html",
+      "classification": "chapter_landing",
+      "scope_class": "active_candidate",
+      "title": "ads Recursion and Recurrence Relations"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Sequences.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Sequences"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Some Common Recurrence Relations.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads Some Common Recurrence Relations"
+    },
+    {
+      "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads The Many Faces of Recursion.html",
+      "classification": "section_content",
+      "scope_class": "active_candidate",
+      "title": "ads The Many Faces of Recursion"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Connectivity"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Data Structures for Graphs.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Data Structures for Graphs"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Graph Optimization"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Graph Theory.html",
+      "classification": "chapter_landing",
+      "scope_class": "deferred_candidate",
+      "title": "ads Graph Theory"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Graphs - General Introduction"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Planarity and Colorings"
+    },
+    {
+      "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+      "classification": "section_content",
+      "scope_class": "deferred_candidate",
+      "title": "ads Traversals: Eulerian and Hamiltonian Graphs"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixD-Notation.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Notation"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixE-Informal_Term_Glossary",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads An Informal Glossary of Terms"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+      "classification": "appendix_content",
+      "scope_class": "reference_solution",
+      "title": "ads Hints and Solutions to Selected Exercises"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/BACK_MATTER.html",
+      "classification": "backmatter",
+      "scope_class": "reference",
+      "title": "ads Back Matter"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/INDEX.html",
+      "classification": "index",
+      "scope_class": "reference",
+      "title": "ads Index"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixA-Algorithims/ads Algorithms.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Algorithms"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixB-Python_and_SageMath/ads Dictionaries.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Dictionaries"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixB-Python_and_SageMath/ads Python Iterators.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Python Iterators"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixB-Python_and_SageMath/ads Python and SageMath.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Python and SageMath"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixC-Determinants/ads Computation.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Computation"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixC-Determinants/ads Definition.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Definition"
+    },
+    {
+      "relative_path": "DM TXT/Back_Matter/AppendixC-Determinants/ads Determinants.html",
+      "classification": "appendix_content",
+      "scope_class": "reference",
+      "title": "ads Determinants"
+    }
+  ]
+}

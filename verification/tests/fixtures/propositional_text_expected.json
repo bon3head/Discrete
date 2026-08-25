@@ -1,0 +1,79 @@
+{
+  "prop-pass-001": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE"
+  },
+  "prop-pass-002": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE"
+  },
+  "prop-pass-003": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "TRUTH_TABLE_EXHAUSTIVE"
+  },
+  "prop-pass-004": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "TRUTH_TABLE_EXHAUSTIVE"
+  },
+  "prop-pass-005": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE"
+  },
+  "prop-fail-006": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "LOGIC_COUNTEREXAMPLE",
+    "required_evidence": [
+      "counterexample"
+    ]
+  },
+  "prop-fail-007": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "LOGIC_COUNTEREXAMPLE",
+    "required_evidence": [
+      "counterexample"
+    ]
+  },
+  "prop-fail-008": {
+    "expected_verdict": "FAIL",
+    "expected_reason_code": "NOT_TAUTOLOGY",
+    "required_evidence": [
+      "rows"
+    ]
+  },
+  "prop-err-009": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-010": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-011": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-012": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-013": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-014": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-015": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-err-016": {
+    "expected_verdict": "UNVERIFIABLE",
+    "expected_reason_code": "LOGIC_PARSE_ERROR"
+  },
+  "prop-pass-017": {
+    "expected_verdict": "PASS",
+    "expected_reason_code": "LOGIC_EXHAUSTIVE_EQUIVALENCE"
+  }
+}

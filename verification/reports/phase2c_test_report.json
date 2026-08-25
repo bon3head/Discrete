@@ -1,0 +1,113 @@
+{
+  "recurrence_results": [
+    {
+      "claim_id": "rec-pass-finite",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true
+    },
+    {
+      "claim_id": "rec-unv-general",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true
+    },
+    {
+      "claim_id": "rec-fail-candidate",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true
+    },
+    {
+      "claim_id": "rec-fail-init",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true
+    },
+    {
+      "claim_id": "rec-unv-syntax",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true
+    },
+    {
+      "claim_id": "rec-unv-domain",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true
+    }
+  ],
+  "induction_results": [
+    {
+      "claim_id": "ind-fail-prop-finite",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true
+    },
+    {
+      "claim_id": "ind-fail-prop-general",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true
+    },
+    {
+      "claim_id": "ind-pass-finite",
+      "expected_verdict": "PASS",
+      "actual_verdict": "PASS",
+      "passed": true
+    },
+    {
+      "claim_id": "ind-unv-general",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true
+    },
+    {
+      "claim_id": "ind-fail-transition",
+      "expected_verdict": "FAIL",
+      "actual_verdict": "FAIL",
+      "passed": true
+    },
+    {
+      "claim_id": "ind-prov-source",
+      "expected_verdict": "UNVERIFIABLE",
+      "actual_verdict": "UNVERIFIABLE",
+      "passed": true
+    }
+  ],
+  "mathematical_honesty_check": [
+    "rec-unv-general",
+    "ind-unv-general",
+    "ind-prov-source"
+  ],
+  "mutation_results": [
+    {
+      "mutation_id": "recurrence_self_compare",
+      "temporary_only": true,
+      "restoration_method": "try/finally write with SHA-256 verification",
+      "before_sha": "39d80ee3583671330d7b62352071648964548c8ee427c574784f132bdaeb2ec6",
+      "after_sha": "39d80ee3583671330d7b62352071648964548c8ee427c574784f132bdaeb2ec6",
+      "actual_mutated_behavior": "Verdict: UNVERIFIABLE, Reason: RECURRENCE_FINITE_EVIDENCE_ONLY",
+      "test_command": "python3 -m unittest verification/tests/test_recurrences.py",
+      "test_return_code": 1,
+      "detected": true,
+      "detector_output_summary": "Tests failed"
+    }
+  ],
+  "summary": {
+    "recurrence_total": 6,
+    "recurrence_passed": 6,
+    "induction_total": 6,
+    "induction_passed": 6
+  },
+  "deferred_capabilities": [
+    "recurrence solving",
+    "generating functions",
+    "formal induction proofs",
+    "proof judgment",
+    "natural-language/LaTeX parsing",
+    "Sage",
+    "graphs",
+    "tutor integration"
+  ]
+}

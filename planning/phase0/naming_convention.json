@@ -1,0 +1,15 @@
+{
+  "proposal_only": true,
+  "source_provenance": "Each Markdown file must retain source_relative_path and source_sha256 in front matter.",
+  "rules": [
+    "One section_content source page maps to one Markdown file by default.",
+    "Use lowercase ASCII kebab-case derived from displayed number/title; preserve source numbering as a prefix when detected.",
+    "Place active_candidate under corpus/active/, deferred_candidate under corpus/deferred/, reference under corpus/reference/, and reference_solution under corpus/reference_solution/.",
+    "Put chapter landings in their chapter directory as index.md; map the frontmatter landing to corpus/reference/frontmatter/index.md; map index and backmatter explicitly under corpus/reference/.",
+    "Retain assets by provenance; do not rename source assets during initial conversion."
+  ],
+  "detected_slug_collisions": {},
+  "exceptions": [
+    "DM TXT/Back_Matter/BACK_MATTER.html"
+  ]
+}

@@ -1,0 +1,1667 @@
+{
+  "generated_at_utc": "2026-08-25T16:08:38.663823+00:00",
+  "content_gaps": [
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/1_to_10.png",
+      "asset_filename": "1_to_10.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Binary Representation of Positive Integers.html",
+          "displayed_section_or_chapter": "Section 1.4 Binary Representation of Positive Integers",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/Domino_effect.png",
+      "asset_filename": "Domino_effect.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/3-Logic/ads Mathematical Induction.html",
+          "displayed_section_or_chapter": "Section 3.7 Mathematical Induction",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/S65-3s.svg",
+      "asset_filename": "S65-3s.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+          "displayed_section_or_chapter": "Section 6.5 Closure Operations on Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/S65-3s2.svg",
+      "asset_filename": "S65-3s2.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+          "displayed_section_or_chapter": "Section 6.5 Closure Operations on Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/S65-3s3.svg",
+      "asset_filename": "S65-3s3.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+          "displayed_section_or_chapter": "Section 6.5 Closure Operations on Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/S65-3stc.svg",
+      "asset_filename": "S65-3stc.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+          "displayed_section_or_chapter": "Section 6.5 Closure Operations on Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/distrib-venn-lhs.png",
+      "asset_filename": "distrib-venn-lhs.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/4-More_on_Sets/ads Methods of Proof for Sets.html",
+          "displayed_section_or_chapter": "Section 4.1 Methods of Proof for Sets",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/distrib-venn-rhs.png",
+      "asset_filename": "distrib-venn-rhs.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/4-More_on_Sets/ads Methods of Proof for Sets.html",
+          "displayed_section_or_chapter": "Section 4.1 Methods of Proof for Sets",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/doodle-a.png",
+      "asset_filename": "doodle-a.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/doodle-b.png",
+      "asset_filename": "doodle-b.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/doodle-c.png",
+      "asset_filename": "doodle-c.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/exercise-8-2-3.png",
+      "asset_filename": "exercise-8-2-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Sequences.html",
+          "displayed_section_or_chapter": "Section 8.2 Sequences",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/exercises-6-digraphs.png",
+      "asset_filename": "exercises-6-digraphs.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-12-5-1.png",
+      "asset_filename": "fig-12-5-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Some Applications.html",
+          "displayed_section_or_chapter": "Section 12.5 Some Applications",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-13-1-1.png",
+      "asset_filename": "fig-13-1-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-a-d-dial.png",
+      "asset_filename": "fig-a-d-dial.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-binsearch.png",
+      "asset_filename": "fig-binsearch.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads The Many Faces of Recursion.html",
+          "displayed_section_or_chapter": "Section 8.1 The Many Faces of Recursion",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-bsc-example.png",
+      "asset_filename": "fig-bsc-example.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/7-Functions_and_Probability/ads Binomial Processes.html",
+          "displayed_section_or_chapter": "Section 7.5 Binomial Processes",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-chains.png",
+      "asset_filename": "fig-chains.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-compute-distance-graph.png",
+      "asset_filename": "fig-compute-distance-graph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-d4-subgroups.png",
+      "asset_filename": "fig-d4-subgroups.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-degree-sequence-example.png",
+      "asset_filename": "fig-degree-sequence-example.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-degrees-example-9-1.png",
+      "asset_filename": "fig-degrees-example-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-directed-graph-ex1.png",
+      "asset_filename": "fig-directed-graph-ex1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-directed-tsp-example.png",
+      "asset_filename": "fig-directed-tsp-example.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-dodec-graph.png",
+      "asset_filename": "fig-dodec-graph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-dodec.png",
+      "asset_filename": "fig-dodec.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-domino_path.png",
+      "asset_filename": "fig-domino_path.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-euler-island.png",
+      "asset_filename": "fig-euler-island.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-euler-proof-scheme.png",
+      "asset_filename": "fig-euler-proof-scheme.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-eulerian-9-4.png",
+      "asset_filename": "fig-eulerian-9-4.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-eulerislandgraph.png",
+      "asset_filename": "fig-eulerislandgraph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-ex-6-4-2a.png",
+      "asset_filename": "fig-ex-6-4-2a.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Matrices of Relations.html",
+          "displayed_section_or_chapter": "Section 6.4 Matrices of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-ex-6-4-2b.png",
+      "asset_filename": "fig-ex-6-4-2b.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Matrices of Relations.html",
+          "displayed_section_or_chapter": "Section 6.4 Matrices of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-ex-non-euler.png",
+      "asset_filename": "fig-ex-non-euler.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-example-9-2-1.png",
+      "asset_filename": "fig-example-9-2-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Data Structures for Graphs.html",
+          "displayed_section_or_chapter": "Section 9.2 Data Structures for Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-example-9-3-1.png",
+      "asset_filename": "fig-example-9-3-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-6-5-4.png",
+      "asset_filename": "fig-exercise-6-5-4.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Closure Operations on Relations.html",
+          "displayed_section_or_chapter": "Section 6.5 Closure Operations on Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-1-6.png",
+      "asset_filename": "fig-exercise-9-1-6.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-3-4.png",
+      "asset_filename": "fig-exercise-9-3-4.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-4-6.png",
+      "asset_filename": "fig-exercise-9-4-6.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-5-5.png",
+      "asset_filename": "fig-exercise-9-5-5.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-5-6.png",
+      "asset_filename": "fig-exercise-9-5-6.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-5-7a.png",
+      "asset_filename": "fig-exercise-9-5-7a.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-5-7b.png",
+      "asset_filename": "fig-exercise-9-5-7b.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-5-7c.png",
+      "asset_filename": "fig-exercise-9-5-7c.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-exercise-9-6-3.png",
+      "asset_filename": "fig-exercise-9-6-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-five-coloring-proof.png",
+      "asset_filename": "fig-five-coloring-proof.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-flow-example-before.png",
+      "asset_filename": "fig-flow-example-before.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-graph-12-5-2.png",
+      "asset_filename": "fig-graph-12-5-2.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Some Applications.html",
+          "displayed_section_or_chapter": "Section 12.5 Some Applications",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-graph-12-5-3.png",
+      "asset_filename": "fig-graph-12-5-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads Some Applications.html",
+          "displayed_section_or_chapter": "Section 12.5 Some Applications",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-hamilton-stamp.png",
+      "asset_filename": "fig-hamilton-stamp.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-intro-3-cube.png",
+      "asset_filename": "fig-intro-3-cube.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-intro-dial-coating.png",
+      "asset_filename": "fig-intro-dial-coating.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-isomorphic-graphs-9-1.png",
+      "asset_filename": "fig-isomorphic-graphs-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-konigsberg-map.png",
+      "asset_filename": "fig-konigsberg-map.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-konigsberg-multigraph.png",
+      "asset_filename": "fig-konigsberg-multigraph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-labeled-graph-9-1.png",
+      "asset_filename": "fig-labeled-graph-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-lattice-path-6.png",
+      "asset_filename": "fig-lattice-path-6.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/2-Combinatorics/ads Combinations and the Binomial Theorem.html",
+          "displayed_section_or_chapter": "Section 2.4 Combinations and the Binomial Theorem",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-log-2-plot.png",
+      "asset_filename": "fig-log-2-plot.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Some Common Recurrence Relations.html",
+          "displayed_section_or_chapter": "Section 8.4 Some Common Recurrence Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-logic-design-exerc-3.png",
+      "asset_filename": "fig-logic-design-exerc-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-m43-hamiltonian.png",
+      "asset_filename": "fig-m43-hamiltonian.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-measure-graph-1.png",
+      "asset_filename": "fig-measure-graph-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-measure-graph-2.png",
+      "asset_filename": "fig-measure-graph-2.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-measure-graph-3.png",
+      "asset_filename": "fig-measure-graph-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-measure-graph-4.png",
+      "asset_filename": "fig-measure-graph-4.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Connectivity.html",
+          "displayed_section_or_chapter": "Section 9.3 Connectivity",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-mlb-1983-9-1.png",
+      "asset_filename": "fig-mlb-1983-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-multigraph-ex1.png",
+      "asset_filename": "fig-multigraph-ex1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-one-matrix-product-entry.png",
+      "asset_filename": "fig-one-matrix-product-entry.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/5-Intro_to_Matrix_Algebra/ads Basic Definitions and Operations.html",
+          "displayed_section_or_chapter": "Section 5.1 Basic Definitions and Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-ort-to-bt_sol.png",
+      "asset_filename": "fig-ort-to-bt_sol.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-path-augmentation.png",
+      "asset_filename": "fig-path-augmentation.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Traversals_ Eulerian and Hamiltonian Graphs.html",
+          "displayed_section_or_chapter": "Section 9.4 Traversals: Eulerian and Hamiltonian Graphs",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-planar-plane.png",
+      "asset_filename": "fig-planar-plane.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-pop-push.png",
+      "asset_filename": "fig-pop-push.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/8-Recursion_and_Recurrence_Relations/ads Generating Functions.html",
+          "displayed_section_or_chapter": "Section 8.5 Generating Functions",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-same-ds-9-1.png",
+      "asset_filename": "fig-same-ds-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-small-tsp-example.png",
+      "asset_filename": "fig-small-tsp-example.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-1-2-7.png",
+      "asset_filename": "fig-sol-1-2-7.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-10-1-1.png",
+      "asset_filename": "fig-sol-10-1-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-10-4-1-A.png",
+      "asset_filename": "fig-sol-10-4-1-A.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-10-4-1-B.png",
+      "asset_filename": "fig-sol-10-4-1-B.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-10-4-5.png",
+      "asset_filename": "fig-sol-10-4-5.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-11-5-5.png",
+      "asset_filename": "fig-sol-11-5-5.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-14-5-1a.png",
+      "asset_filename": "fig-sol-14-5-1a.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-14-5-1b.png",
+      "asset_filename": "fig-sol-14-5-1b.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-2-1-17.png",
+      "asset_filename": "fig-sol-2-1-17.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/2-Combinatorics/ads Basic Counting Techniques - The Rule of Products.html",
+          "displayed_section_or_chapter": "Section 2.1 Basic Counting Techniques - The Rule of Products",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-6-2-1.png",
+      "asset_filename": "fig-sol-6-2-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-6-3-11.png",
+      "asset_filename": "fig-sol-6-3-11.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-6-3-5.png",
+      "asset_filename": "fig-sol-6-3-5.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-7-2-9.png",
+      "asset_filename": "fig-sol-7-2-9.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/7-Functions_and_Probability/ads Properties of Functions.html",
+          "displayed_section_or_chapter": "Section 7.2 Properties of Functions",
+          "scope_class": "active_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-sol-9-1-3.png",
+      "asset_filename": "fig-sol-9-1-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        },
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-solution-10-3-3.png",
+      "asset_filename": "fig-solution-10-3-3.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-strip-alg-tsp.png",
+      "asset_filename": "fig-strip-alg-tsp.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-subgraphs.png",
+      "asset_filename": "fig-subgraphs.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-tennis.png",
+      "asset_filename": "fig-tennis.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-three-axes.png",
+      "asset_filename": "fig-three-axes.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads An Introduction to Vector Spaces.html",
+          "displayed_section_or_chapter": "Section 12.3 An Introduction to Vector Spaces",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-tournament-graph-9-1.png",
+      "asset_filename": "fig-tournament-graph-9-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-tree_correspondence.png",
+      "asset_filename": "fig-tree_correspondence.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-two-sets-of-axes.png",
+      "asset_filename": "fig-two-sets-of-axes.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads An Introduction to Vector Spaces.html",
+          "displayed_section_or_chapter": "Section 12.3 An Introduction to Vector Spaces",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-undirected-1.png",
+      "asset_filename": "fig-undirected-1.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-undirected-2.png",
+      "asset_filename": "fig-undirected-2.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graphs - General Introduction.html",
+          "displayed_section_or_chapter": "Section 9.1 Graphs - General Introduction",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-updated-flow.png",
+      "asset_filename": "fig-updated-flow.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-utilities-puzzle.png",
+      "asset_filename": "fig-utilities-puzzle.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Planarity and Colorings.html",
+          "displayed_section_or_chapter": "Section 9.6 Planarity and Colorings",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-vector-addition.png",
+      "asset_filename": "fig-vector-addition.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/12-More_Matrix_Algebra/ads An Introduction to Vector Spaces.html",
+          "displayed_section_or_chapter": "Section 12.3 An Introduction to Vector Spaces",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-vending-diagram.png",
+      "asset_filename": "fig-vending-diagram.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-water-network.png",
+      "asset_filename": "fig-water-network.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-water-system.png",
+      "asset_filename": "fig-water-system.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/9-Graph_Theory/ads Graph Optimization.html",
+          "displayed_section_or_chapter": "Section 9.5 Graph Optimization",
+          "scope_class": "deferred_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/fig-zig-zag-countable.png",
+      "asset_filename": "fig-zig-zag-countable.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/Back_Matter/AppendixF-Hints_and_Solutions_to_Selected_Exercises.html",
+          "displayed_section_or_chapter": "Appendix F Hints and Solutions to Selected Exercises",
+          "scope_class": "reference_solution"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/graph-6-1-relation-composition.png",
+      "asset_filename": "graph-6-1-relation-composition.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Basic Definitions.html",
+          "displayed_section_or_chapter": "Section 6.1 Basic Definitions",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/graph-6-1-relation-graph.png",
+      "asset_filename": "graph-6-1-relation-graph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Basic Definitions.html",
+          "displayed_section_or_chapter": "Section 6.1 Basic Definitions",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/graph-6-2-subsets-2.png",
+      "asset_filename": "graph-6-2-subsets-2.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/lunch.png",
+      "asset_filename": "lunch.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/2-Combinatorics/ads Basic Counting Techniques - The Rule of Products.html",
+          "displayed_section_or_chapter": "Section 2.1 Basic Counting Techniques - The Rule of Products",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/pentagonal-digraph.png",
+      "asset_filename": "pentagonal-digraph.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/pentagonal-hasse.png",
+      "asset_filename": "pentagonal-hasse.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/subsets_2_hasse.png",
+      "asset_filename": "subsets_2_hasse.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "external_image",
+      "asset_path": "external/images/tree-of-permutations.png",
+      "asset_filename": "tree-of-permutations.png",
+      "references": [
+        {
+          "relative_path": "DM TXT/2-Combinatorics/ads Permutations.html",
+          "displayed_section_or_chapter": "Section 2.2 Permutations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/graph-6-2-1.svg",
+      "asset_filename": "graph-6-2-1.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/graph-6-2-2.svg",
+      "asset_filename": "graph-6-2-2.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/graph-6-2-3.svg",
+      "asset_filename": "graph-6-2-3.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Graphs of Relations on a Set.html",
+          "displayed_section_or_chapter": "Section 6.2 Graphs of Relations on a Set",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/graph-6-3-5.svg",
+      "asset_filename": "graph-6-3-5.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/6-Relations/ads Properties of Relations.html",
+          "displayed_section_or_chapter": "Section 6.3 Properties of Relations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/minsets-2.svg",
+      "asset_filename": "minsets-2.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/4-More_on_Sets/ads Minsets.html",
+          "displayed_section_or_chapter": "Section 4.3 Minsets",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/pyramid.svg",
+      "asset_filename": "pyramid.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/3-Logic/ads Mathematical Systems and Proofs.html",
+          "displayed_section_or_chapter": "Section 3.5 Mathematical Systems and Proofs",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-CS_Students.svg",
+      "asset_filename": "sageplot-venn-CS_Students.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/2-Combinatorics/ads Partitions of Sets and the Law of Addition.html",
+          "displayed_section_or_chapter": "Section 2.3 Partitions of Sets and the Law of Addition",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-complement1.svg",
+      "asset_filename": "sageplot-venn-complement1.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-complement2.svg",
+      "asset_filename": "sageplot-venn-complement2.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-complement3.svg",
+      "asset_filename": "sageplot-venn-complement3.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-intersection.svg",
+      "asset_filename": "sageplot-venn-intersection.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-symmetric.svg",
+      "asset_filename": "sageplot-venn-symmetric.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-truth-set-conditional.svg",
+      "asset_filename": "sageplot-venn-truth-set-conditional.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/3-Logic/ads Propositions over a Universe.html",
+          "displayed_section_or_chapter": "Section 3.6 Propositions over a Universe",
+          "scope_class": "active_candidate"
+        }
+      ]
+    },
+    {
+      "kind": "sage_generated_plot",
+      "asset_path": "generated/sageplot/sageplot-venn-union.svg",
+      "asset_filename": "sageplot-venn-union.svg",
+      "references": [
+        {
+          "relative_path": "DM TXT/1-Set-Theory/ads Basic Set Operations.html",
+          "displayed_section_or_chapter": "Section 1.2 Basic Set Operations",
+          "scope_class": "active_candidate"
+        }
+      ]
+    }
+  ],
+  "chrome_groups": {
+    "pretext_runtime": {
+      "disposition": "strip_automatic",
+      "reference_count": 608,
+      "assets": [
+        "_static/pretext/js/lib/jquery.espy.min.js",
+        "_static/pretext/js/lib/jquery.min.js",
+        "_static/pretext/js/lib/jquery.sticky.js",
+        "_static/pretext/js/lib/knowl.js",
+        "_static/pretext/js/pretext.js",
+        "_static/pretext/js/pretext_add_on.js",
+        "_static/pretext/js/pretext_search.js",
+        "_static/pretext/js/user_preferences.js"
+      ]
+    },
+    "search_index": {
+      "disposition": "strip_automatic",
+      "reference_count": 76,
+      "assets": [
+        "lunr-pretext-search-index.js"
+      ]
+    },
+    "site_logo": {
+      "disposition": "strip_automatic",
+      "reference_count": 76,
+      "assets": [
+        "external/images/logo.jpg"
+      ]
+    }
+  },
+  "summary": {
+    "distinct_content_gap_files": 128,
+    "content_gap_reference_count": 142,
+    "reference_count_by_kind": {
+      "external_image": 128,
+      "sage_generated_plot": 14
+    },
+    "reference_count_by_scope_class": {
+      "active_candidate": 48,
+      "deferred_candidate": 66,
+      "reference_solution": 28
+    },
+    "reference_count_by_chapter": {
+      "1": 8,
+      "12": 6,
+      "2": 5,
+      "3": 3,
+      "4": 3,
+      "5": 1,
+      "6": 22,
+      "7": 2,
+      "8": 4,
+      "9": 60,
+      "reference": 28
+    }
+  }
+}
