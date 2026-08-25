@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "status": {"type": "string", "enum": ["READY", "CLARIFICATION_REQUIRED", "POLICY_BLOCKED", "UNVERIFIABLE"]},
+    "reason_code": {"type": "string"},
+    "mode": {"type": "string"},
+    "task_type": {"type": "string"},
+    "retrieval": {
+      "type": ["object", "null"],
+      "properties": {
+        "scope_class": {"type": "string"},
+        "corpus_paths": {"type": "array", "items": {"type": "string"}},
+        "citations_required": {"type": "boolean"}
+      }
+    },
+    "policy": {
+      "type": ["object", "null"],
+      "properties": {
+        "max_hint_level": {"type": "string", "enum": ["L0", "L1", "L2", "L3", "L4"]},
+        "final_answer_reveal": {"type": "boolean"},
+        "reference_solution_allowed": {"type": "boolean"},
+        "student_attempt_required_for_L4": {"type": "boolean"}
+      }
+    },
+    "verification_result": {"type": ["object", "null"]},
+    "agent_instructions": {"type": "array", "items": {"type": "string"}},
+    "logging": {
+      "type": ["object", "null"],
+      "properties": {
+        "log_required": {"type": "boolean"},
+        "store_prompt_text": {"type": "boolean"},
+        "store_student_attempt_text": {"type": "boolean"},
+        "metadata_fields": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "required": ["status", "reason_code"]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "request_id": {"type": "string"},
+    "mode": {"type": "string", "enum": ["tutor", "mock_exam", "review"]},
+    "task_type": {"type": "string", "enum": ["concept_help", "homework_hint", "student_attempt_check", "verification", "exam_prep"]},
+    "context": {
+      "type": "object",
+      "properties": {
+        "chapter": {"type": ["integer", "null"]},
+        "section": {"type": ["string", "null"]},
+        "problem_reference": {"type": "string"}
+      }
+    },
+    "student_attempt": {
+      "type": "object",
+      "properties": {
+        "provided": {"type": "boolean"},
+        "text": {"type": ["string", "null"]}
+      },
+      "required": ["provided"]
+    },
+    "requested_hint_level": {"type": ["string", "null"], "enum": ["L1", "L2", "L3", "L4", null]},
+    "claim": {"type": ["object", "null"]},
+    "request_reference_solution": {"type": "boolean"}
+  },
+  "required": ["request_id", "mode", "task_type", "context", "student_attempt", "request_reference_solution"]
+}

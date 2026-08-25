@@ -1,0 +1,280 @@
+[
+  {
+    "request_id": "req-1",
+    "desc": "1. Active Ch. 3 homework request, no attempt",
+    "request": {
+      "request_id": "req-1",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "READY",
+    "expected_max_hint": "L3",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-2",
+    "desc": "2. Active Ch. 3 student-attempt check",
+    "request": {
+      "request_id": "req-2",
+      "mode": "tutor",
+      "task_type": "student_attempt_check",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true,
+        "text": "foo"
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "READY",
+    "expected_max_hint": "L4",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-3",
+    "desc": "3. Context absent",
+    "request": {
+      "request_id": "req-3",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": null,
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "CLARIFICATION_REQUIRED",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-4",
+    "desc": "4. Unknown section boundary",
+    "request": {
+      "request_id": "req-4",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 3,
+        "section": "3.99"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "CLARIFICATION_REQUIRED",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-5",
+    "desc": "5. Pre-attempt Appendix F request",
+    "request": {
+      "request_id": "req-5",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": true
+    },
+    "expected_status": "POLICY_BLOCKED",
+    "expected_reason": "REFERENCE_SOLUTION_PREATTEMPT_BLOCKED",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-6",
+    "desc": "6. Post-attempt Appendix F request (no local file)",
+    "request": {
+      "request_id": "req-6",
+      "mode": "tutor",
+      "task_type": "student_attempt_check",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": true
+    },
+    "expected_status": "UNVERIFIABLE",
+    "expected_reason": "REFERENCE_SOLUTION_NOT_LOCALLY_AVAILABLE",
+    "expected_max_hint": "L4",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-7",
+    "desc": "7. Valid propositional_text verification claim",
+    "request": {
+      "request_id": "req-7",
+      "mode": "tutor",
+      "task_type": "verification",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": false,
+      "claim": {
+        "kind": "propositional_text",
+        "mode": "property",
+        "property": "tautology",
+        "expression_text": "p | ~p",
+        "source": {
+          "corpus_path": "foo.md"
+        }
+      }
+    },
+    "expected_status": "READY",
+    "expected_verification_verdict": "PASS",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-8",
+    "desc": "8. Unsupported proof claim",
+    "request": {
+      "request_id": "req-8",
+      "mode": "tutor",
+      "task_type": "verification",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": false,
+      "claim": {
+        "kind": "invalid_kind_for_test"
+      }
+    },
+    "expected_status": "UNVERIFIABLE",
+    "expected_reason": "UNSUPPORTED_CLAIM",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-9",
+    "desc": "9. Mock exam during attempt",
+    "request": {
+      "request_id": "req-9",
+      "mode": "mock_exam",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "READY",
+    "expected_max_hint": "L0",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-10",
+    "desc": "10. Deferred chapter request without explicit scope opt-in",
+    "request": {
+      "request_id": "req-10",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 9
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "POLICY_BLOCKED",
+    "expected_reason": "DEFERRED_CONTENT_BLOCKED",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-11",
+    "desc": "11. Exact section matching (valid numeric 3.1)",
+    "request": {
+      "request_id": "req-11",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 3,
+        "section": "3.1"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "READY",
+    "expected_reference_solution_available_locally": false
+  },
+  {
+    "request_id": "req-12",
+    "desc": "12. Exact section matching (invalid nonnumeric 'mathematical')",
+    "request": {
+      "request_id": "req-12",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 3,
+        "section": "mathematical"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "CLARIFICATION_REQUIRED",
+    "expected_reference_solution_available_locally": false,
+    "expected_reason": "INVALID_SECTION_IDENTIFIER"
+  },
+  {
+    "request_id": "req-13",
+    "desc": "13. Post-attempt Appendix F request (future local file exists)",
+    "request": {
+      "request_id": "req-13",
+      "mode": "tutor",
+      "task_type": "student_attempt_check",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": true
+    },
+    "expected_status": "READY",
+    "expected_max_hint": "L4",
+    "expected_reference_solution_available_locally": true
+  },
+  {
+    "request_id": "req-14",
+    "desc": "14. Nonexistent numeric section 3.10",
+    "request": {
+      "request_id": "req-14",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 3,
+        "section": "3.10"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "expected_status": "CLARIFICATION_REQUIRED",
+    "expected_reason": "UNKNOWN_SECTION"
+  }
+]
