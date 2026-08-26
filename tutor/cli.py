@@ -89,7 +89,12 @@ def validate_command(args):
         print(f"Error: Session {session_id} not found.")
         sys.exit(1)
         
-    resp_dict = load_response(session_id)
+    try:
+        resp_dict = load_response(session_id)
+    except json.JSONDecodeError as e:
+        print(f"Error: response.json is malformed JSON. {e}")
+        sys.exit(1)
+
     if not resp_dict:
         print(f"Error: No response.json found in session {session_id}")
         sys.exit(1)
@@ -126,7 +131,12 @@ def show_command(args):
         print(f"Cannot show response. Verdict is {verdict['status']}: {verdict['reason_code']}")
         sys.exit(1)
         
-    resp_dict = load_response(session_id)
+    try:
+        resp_dict = load_response(session_id)
+    except json.JSONDecodeError as e:
+        print(f"Error: response.json is malformed JSON. {e}")
+        sys.exit(1)
+
     if not resp_dict:
         print(f"Error: No response.json found in session {session_id}")
         sys.exit(1)
@@ -230,7 +240,32 @@ def main():
     smoke_p.set_defaults(func=smoke_command)
     
     args = parser.parse_args()
-    args.func(args)
+    
+    session_id = getattr(args, "id", None)
+    if session_id:
+        import fcntl
+        import os
+        from pathlib import Path
+        s_dir = Path("runtime/sessions") / session_id
+        # We don't want to create the dir if the session doesn't exist and it's not new_command, 
+        # but the lock needs a directory. Actually get_session_dir creates it or it's created already.
+        s_dir.mkdir(parents=True, exist_ok=True)
+        lock_file = s_dir / ".lock"
+        with open(lock_file, "w") as lf:
+            fcntl.flock(lf, fcntl.LOCK_EX)
+            try:
+                args.func(args)
+            except json.JSONDecodeError as e:
+                print(f"Error: A session file is corrupted (invalid JSON): {e}")
+                sys.exit(1)
+    else:
+        try:
+            args.func(args)
+        except json.JSONDecodeError as e:
+            print(f"Error: A session file is corrupted (invalid JSON): {e}")
+            sys.exit(1)
+
+
 
 if __name__ == "__main__":
     main()
