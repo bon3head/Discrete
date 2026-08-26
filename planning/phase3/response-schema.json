@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "hint_level_used": {
+      "type": "string",
+      "enum": ["L0", "L1", "L2", "L3", "L4"]
+    },
+    "response_type": {
+      "type": "string",
+      "enum": ["concept", "hint", "scaffold", "walkthrough", "verification_feedback", "clarification"]
+    },
+    "body": {
+      "type": "string"
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "section": {
+            "type": ["string", "null"]
+          },
+          "corpus_path": {
+            "type": "string"
+          }
+        },
+        "required": ["corpus_path"]
+      }
+    },
+    "verification_footer": {
+      "type": ["object", "null"],
+      "properties": {
+        "verdict": {
+          "type": ["string", "null"],
+          "enum": ["PASS", "FAIL", "UNVERIFIABLE", null]
+        },
+        "reason_code": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "next_step": {
+      "type": "string",
+      "minLength": 1
+    },
+    "final_answer_reveal": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "hint_level_used",
+    "response_type",
+    "body",
+    "citations",
+    "verification_footer",
+    "next_step",
+    "final_answer_reveal"
+  ]
+}

@@ -1,0 +1,453 @@
+[
+  {
+    "desc": "1. Safe active homework hint",
+    "request": {
+      "request_id": "req-e2e-1",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "This is a safe hint.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "What do you think?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "PASS",
+    "expected_reason_code": "RESPONSE_VALID"
+  },
+  {
+    "desc": "2. L4 without student attempt",
+    "request": {
+      "request_id": "req-e2e-2",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L4",
+      "response_type": "walkthrough",
+      "body": "Here is the step by step.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "Does this make sense?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "HINT_LEVEL_EXCEEDS_AUTHORIZATION"
+  },
+  {
+    "desc": "3. Mock exam, pre-attempt, response tries L1",
+    "request": {
+      "request_id": "req-e2e-3",
+      "mode": "mock_exam",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L1",
+      "response_type": "hint",
+      "body": "Think about this.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "Try again?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "MOCK_EXAM_HINT_FORBIDDEN"
+  },
+  {
+    "desc": "4. Explicit final-answer field",
+    "request": {
+      "request_id": "req-e2e-4",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "Continue?",
+      "final_answer_reveal": true
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "FINAL_ANSWER_REVEAL_FORBIDDEN"
+  },
+  {
+    "desc": "5. Known answer-leak phrase",
+    "request": {
+      "request_id": "req-e2e-5",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Well, the answer is 42.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "REVIEW_REQUIRED",
+    "expected_reason_code": "POSSIBLE_ANSWER_LEAK"
+  },
+  {
+    "desc": "6. Unauthorized corpus citation",
+    "request": {
+      "request_id": "req-e2e-6",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/mathematical-induction.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "UNAUTHORIZED_CORPUS_CITATION"
+  },
+  {
+    "desc": "7. Verifier result altered",
+    "request": {
+      "request_id": "req-e2e-7",
+      "mode": "tutor",
+      "task_type": "verification",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": false,
+      "claim": {
+        "kind": "propositional_text",
+        "mode": "property",
+        "property": "tautology",
+        "expression_text": "p | ~p"
+      }
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "verification_feedback",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": {
+        "verdict": "PASS",
+        "reason_code": "WRONG_REASON"
+      },
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "VERIFIER_RESULT_ALTERED"
+  },
+  {
+    "desc": "8. Valid verifier-result preservation",
+    "request": {
+      "request_id": "req-e2e-8",
+      "mode": "tutor",
+      "task_type": "verification",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": false,
+      "claim": {
+        "kind": "propositional_text",
+        "mode": "property",
+        "property": "tautology",
+        "expression_text": "p | ~p"
+      }
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "verification_feedback",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": {
+        "verdict": "PASS",
+        "reason_code": "TRUTH_TABLE_EXHAUSTIVE"
+      },
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "PASS",
+    "expected_reason_code": "RESPONSE_VALID"
+  },
+  {
+    "desc": "9. Missing required citation",
+    "request": {
+      "request_id": "req-e2e-9",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [],
+      "verification_footer": null,
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "REVIEW_REQUIRED",
+    "expected_reason_code": "REQUIRED_CITATION_MISSING"
+  },
+  {
+    "desc": "10. Missing/invalid next step",
+    "request": {
+      "request_id": "req-e2e-10",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": null,
+      "next_step": "  ",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "REVIEW_REQUIRED",
+    "expected_reason_code": "NEXT_STEP_INVALID"
+  },
+  {
+    "desc": "11. Pre-attempt Appendix F request",
+    "request": {
+      "request_id": "req-e2e-11",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": true
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [],
+      "verification_footer": null,
+      "next_step": "next",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "POLICY_BLOCKED",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "REFERENCE_SOLUTION_PREATTEMPT_BLOCKED"
+  },
+  {
+    "desc": "12. Authorized-but-unavailable Appendix F",
+    "request": {
+      "request_id": "req-e2e-12",
+      "mode": "tutor",
+      "task_type": "student_attempt_check",
+      "context": {
+        "chapter": 3
+      },
+      "student_attempt": {
+        "provided": true
+      },
+      "request_reference_solution": true
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [],
+      "verification_footer": null,
+      "next_step": "next",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "UNVERIFIABLE",
+    "expected_guard_status": "UNVERIFIABLE",
+    "expected_reason_code": "REFERENCE_SOLUTION_NOT_LOCALLY_AVAILABLE"
+  },
+  {
+    "desc": "13. Missing authorized corpus file",
+    "request": {
+      "request_id": "req-e2e-13",
+      "mode": "tutor",
+      "task_type": "concept_help",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [],
+      "verification_footer": null,
+      "next_step": "next",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "UNVERIFIABLE",
+    "expected_reason_code": "AUTHORIZED_CORPUS_PATH_NOT_AVAILABLE"
+  },
+  {
+    "desc": "14. Footer reason code mutated when verifier result is null",
+    "request": {
+      "request_id": "req-e2e-14",
+      "mode": "tutor",
+      "task_type": "homework_hint",
+      "context": {
+        "chapter": 3,
+        "section": "3.3"
+      },
+      "student_attempt": {
+        "provided": false
+      },
+      "request_reference_solution": false
+    },
+    "candidate_response": {
+      "hint_level_used": "L3",
+      "response_type": "hint",
+      "body": "Safe body.",
+      "citations": [
+        {
+          "corpus_path": "corpus/active/ch03/equivalence-and-implication.md"
+        }
+      ],
+      "verification_footer": {
+        "verdict": null,
+        "reason_code": "FAKE_REASON_CODE"
+      },
+      "next_step": "Agree?",
+      "final_answer_reveal": false
+    },
+    "expected_plan_status": "READY",
+    "expected_guard_status": "POLICY_BLOCKED",
+    "expected_reason_code": "VERIFIER_RESULT_ALTERED"
+  }
+]

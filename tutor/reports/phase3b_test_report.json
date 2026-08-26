@@ -1,0 +1,168 @@
+{
+  "fixture_results": [
+    {
+      "request_id": "req-e2e-1",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "PASS",
+      "actual_guard_status": "PASS",
+      "expected_reason_code": "RESPONSE_VALID",
+      "actual_reason_code": "RESPONSE_VALID",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-2",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "HINT_LEVEL_EXCEEDS_AUTHORIZATION",
+      "actual_reason_code": "HINT_LEVEL_EXCEEDS_AUTHORIZATION",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-3",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "MOCK_EXAM_HINT_FORBIDDEN",
+      "actual_reason_code": "MOCK_EXAM_HINT_FORBIDDEN",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-4",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "FINAL_ANSWER_REVEAL_FORBIDDEN",
+      "actual_reason_code": "FINAL_ANSWER_REVEAL_FORBIDDEN",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-5",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "REVIEW_REQUIRED",
+      "actual_guard_status": "REVIEW_REQUIRED",
+      "expected_reason_code": "POSSIBLE_ANSWER_LEAK",
+      "actual_reason_code": "POSSIBLE_ANSWER_LEAK",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-6",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "UNAUTHORIZED_CORPUS_CITATION",
+      "actual_reason_code": "UNAUTHORIZED_CORPUS_CITATION",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-7",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "VERIFIER_RESULT_ALTERED",
+      "actual_reason_code": "VERIFIER_RESULT_ALTERED",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-8",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "PASS",
+      "actual_guard_status": "PASS",
+      "expected_reason_code": "RESPONSE_VALID",
+      "actual_reason_code": "RESPONSE_VALID",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-9",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "REVIEW_REQUIRED",
+      "actual_guard_status": "REVIEW_REQUIRED",
+      "expected_reason_code": "REQUIRED_CITATION_MISSING",
+      "actual_reason_code": "REQUIRED_CITATION_MISSING",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-10",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "REVIEW_REQUIRED",
+      "actual_guard_status": "REVIEW_REQUIRED",
+      "expected_reason_code": "NEXT_STEP_INVALID",
+      "actual_reason_code": "NEXT_STEP_INVALID",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-11",
+      "expected_plan_status": "POLICY_BLOCKED",
+      "actual_plan_status": "POLICY_BLOCKED",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "REFERENCE_SOLUTION_PREATTEMPT_BLOCKED",
+      "actual_reason_code": "REFERENCE_SOLUTION_PREATTEMPT_BLOCKED",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-12",
+      "expected_plan_status": "UNVERIFIABLE",
+      "actual_plan_status": "UNVERIFIABLE",
+      "expected_guard_status": "UNVERIFIABLE",
+      "actual_guard_status": "UNVERIFIABLE",
+      "expected_reason_code": "REFERENCE_SOLUTION_NOT_LOCALLY_AVAILABLE",
+      "actual_reason_code": "REFERENCE_SOLUTION_NOT_LOCALLY_AVAILABLE",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-13",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "UNVERIFIABLE",
+      "actual_guard_status": "UNVERIFIABLE",
+      "expected_reason_code": "AUTHORIZED_CORPUS_PATH_NOT_AVAILABLE",
+      "actual_reason_code": "AUTHORIZED_CORPUS_PATH_NOT_AVAILABLE",
+      "passed": true
+    },
+    {
+      "request_id": "req-e2e-14",
+      "expected_plan_status": "READY",
+      "actual_plan_status": "READY",
+      "expected_guard_status": "POLICY_BLOCKED",
+      "actual_guard_status": "POLICY_BLOCKED",
+      "expected_reason_code": "VERIFIER_RESULT_ALTERED",
+      "actual_reason_code": "VERIFIER_RESULT_ALTERED",
+      "passed": true
+    }
+  ],
+  "mutation_result": {
+    "mutation": "bypass unauthorized citation check",
+    "detected": true,
+    "detector_exit_code": 1,
+    "before_sha": "f017555b18175af1f515d47618affaff51d1f2052b7e874843854acdd93b3a17",
+    "after_sha": "f017555b18175af1f515d47618affaff51d1f2052b7e874843854acdd93b3a17",
+    "source_sha_restored": true
+  },
+  "review": {
+    "review_path": "planning/phase3/reviews/phase3b_review.md",
+    "p0_findings": 0,
+    "p1_findings": 2,
+    "p0_p1_fixes_applied": [
+      "All verified P0/P1 issues fixed per instructions."
+    ]
+  },
+  "summary": {
+    "fixture_total": 14,
+    "fixture_passed": 14
+  },
+  "limitations": [
+    "The deterministic guard DOES NOT prove that a response contains no answer leak; it only detects explicit high-risk patterns like '\\boxed{', 'the answer is', etc. It does not grade or comprehend the mathematical prose itself.",
+    "The guard cannot determine if a theorem was implicitly invoked without an explicit citation; it only validates the structural presence of citations if citations_required is True."
+  ]
+}
