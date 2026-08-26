@@ -243,14 +243,37 @@ def main():
     
     session_id = getattr(args, "id", None)
     if session_id:
-        import fcntl
         import os
+        import sys
         from pathlib import Path
+        
+        # Platform support: require POSIX fcntl for session locking
+        try:
+            import fcntl
+        except ImportError:
+            print("Error: ADS-Tutor session locking requires a POSIX environment (Linux/WSL2). Windows is not natively supported.")
+            sys.exit(1)
+            
         s_dir = Path("runtime/sessions") / session_id
-        # We don't want to create the dir if the session doesn't exist and it's not new_command, 
-        # but the lock needs a directory. Actually get_session_dir creates it or it's created already.
+        
+        # Directory pollution fix: only create dir if new_command, else require existence
+        if args.func.__name__ != "new_command" and not s_dir.exists():
+            print(f"Error: Session {session_id} not found.")
+            sys.exit(1)
+            
         s_dir.mkdir(parents=True, exist_ok=True)
         lock_file = s_dir / ".lock"
+        with open(lock_file, "w") as lf:
+            fcntl.flock(lf, fcntl.LOCK_EX)
+            try:
+                args.func(args)
+            except json.JSONDecodeError as e:
+                print(f"Error: A session file is corrupted (invalid JSON): {e}")
+                sys.exit(1)
+            
+        s_dir.mkdir(parents=True, exist_ok=True)
+        lock_file = s_dir / ".lock"
+
         with open(lock_file, "w") as lf:
             fcntl.flock(lf, fcntl.LOCK_EX)
             try:
