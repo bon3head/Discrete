@@ -1,0 +1,201 @@
+{
+  "file_count": 49,
+  "files": [
+    {
+      "path": "active/ch01/basic-set-operations.md",
+      "sha256": "77fbba641eedffbde6dfdc4b92d77ec4c0aaaa8be9d486d07c99f41dae6cc11a"
+    },
+    {
+      "path": "active/ch01/binary-representation-of-positive-integers.md",
+      "sha256": "887c19cb34d935dc9a26b960f75e93406be914fc5f34efccfbfd2090f737907f"
+    },
+    {
+      "path": "active/ch01/cartesian-products-and-power-sets.md",
+      "sha256": "63cf1c422f9969d414a54a547b9c38df06755ab0843f8d20c989509acb742d2b"
+    },
+    {
+      "path": "active/ch01/index.md",
+      "sha256": "7eefc40299a70120ea659a36da1174399e177eb0e8d8e1f73641e453d7ba68ca"
+    },
+    {
+      "path": "active/ch01/set-notation-and-relations.md",
+      "sha256": "00001c8fdbafeb3795ce16fce56648d2a18087f7abbf5b85b142c1bb54782d79"
+    },
+    {
+      "path": "active/ch01/summation-notation-and-generalizations.md",
+      "sha256": "0247cc75af5f676f72be286c27d7664c4308706ac8a2b1a99ecfbe72dee1c65b"
+    },
+    {
+      "path": "active/ch02/basic-counting-techniques-the-rule-of-products.md",
+      "sha256": "251498825336da648188495fdec2afec0db18f0cedd330a69faa9f4f910cd210"
+    },
+    {
+      "path": "active/ch02/combinations-and-the-binomial-theorem.md",
+      "sha256": "93454f443fc1613671c28ec334c4f7a5f63661ba2f3ff519625c195be58546d5"
+    },
+    {
+      "path": "active/ch02/index.md",
+      "sha256": "21f414320e2ae18194358c1515ca5d86b65450c7cd7ebefab76e421a2004368d"
+    },
+    {
+      "path": "active/ch02/partitions-of-sets-and-the-law-of-addition.md",
+      "sha256": "2571dad791d229750166accc116b31f397b1b2d7683cb56800107c9f6cdfc612"
+    },
+    {
+      "path": "active/ch02/permutations.md",
+      "sha256": "e71f4fe08ecee9a253ea865a905b53f02651f2fe299784a1655e2c014c14d521"
+    },
+    {
+      "path": "active/ch03/a-review-of-methods-of-proof.md",
+      "sha256": "7fed94b54fc3fce2bc45a3b124e6d73e3f0e17648a6869a21c41706c7839163b"
+    },
+    {
+      "path": "active/ch03/equivalence-and-implication.md",
+      "sha256": "fcd3b9fe41bfeb49e9b7901c974a657afbcf765ae3f19e0fa08e9448aba0c0bd"
+    },
+    {
+      "path": "active/ch03/index.md",
+      "sha256": "d62d55b17e508dbf989c58df70ef0c4fae164978829c5c0ea02a25fa454549e0"
+    },
+    {
+      "path": "active/ch03/mathematical-induction.md",
+      "sha256": "7328a058ac3b89b4c2507cb810e039bda740b3fe405d968c8bbf2d1bec381447"
+    },
+    {
+      "path": "active/ch03/mathematical-systems-and-proofs.md",
+      "sha256": "eee9d81467b9b43764a5f0526b13f91667bcee24f26eaaba0757fc2c2a51df34"
+    },
+    {
+      "path": "active/ch03/propositions-and-logical-operators.md",
+      "sha256": "69ce9621d5a588c545a0793dd2b757da9b4786543b50f7a95e1d74c0259a3e6f"
+    },
+    {
+      "path": "active/ch03/propositions-over-a-universe.md",
+      "sha256": "c817c683098a8b47a83e4d379e6ce782eb29dc1aa4561dfa619b777bce0095eb"
+    },
+    {
+      "path": "active/ch03/quantifiers.md",
+      "sha256": "20119a3ad6fab3db935174d6b0f7b21bd2101927408978f338011888223a4f66"
+    },
+    {
+      "path": "active/ch03/the-laws-of-logic.md",
+      "sha256": "c127774e7693c9bfa35edb925cacfcee01960c5a71451e6284f8179fcd2e9f13"
+    },
+    {
+      "path": "active/ch03/truth-tables-and-propositions-generated-by-a-set.md",
+      "sha256": "b59cec0415b1c303ad433973cc2c951261b1e485343e67f7c7b8d461ab4e0b79"
+    },
+    {
+      "path": "active/ch04/index.md",
+      "sha256": "0fe45eb4fe2877d0d8cd82b0ae53366c19a31ad45e0f50ea96b6a5ee4860ac2f"
+    },
+    {
+      "path": "active/ch04/laws-of-set-theory.md",
+      "sha256": "aa5c1fcd3079a6055bcb55f6f6a41d8792a4dca2913bb96125b33c4815aeb99f"
+    },
+    {
+      "path": "active/ch04/methods-of-proof-for-sets.md",
+      "sha256": "f08bd4bd6c28f25a3bd92e16b1253091ca996c98d7392bfc0772b5f273e92d15"
+    },
+    {
+      "path": "active/ch04/minsets.md",
+      "sha256": "cb0bd87cf80084d0215abebf2101c349ffa342751a332e867b5028420f6341ce"
+    },
+    {
+      "path": "active/ch04/the-duality-principle.md",
+      "sha256": "462108d2fc43fd1ad101cc9a616a84ed8e0f224c8572c9abd579d3cfd3883001"
+    },
+    {
+      "path": "active/ch05/basic-definitions-and-operations.md",
+      "sha256": "289c738a8534230b5c50ce58004632e0a13f8ce3d58a53531bbab47bf3d24d1c"
+    },
+    {
+      "path": "active/ch05/index.md",
+      "sha256": "6fef5225c3303ce04495d711b38850306d8a66c2888efe4a1ebb54b77f3de256"
+    },
+    {
+      "path": "active/ch05/laws-of-matrix-algebra.md",
+      "sha256": "6bc9e3ab525c76e170a6975e36d95e7e645e22afb444efdd8cdae9f57412c432"
+    },
+    {
+      "path": "active/ch05/matrix-oddities.md",
+      "sha256": "fdd639da553c0617d1a4f09c50823c52a4ee17677f5f300452eea29b0994a374"
+    },
+    {
+      "path": "active/ch05/special-types-of-matrices.md",
+      "sha256": "33521c36a02b5faed5085eb7fc0198c51ce3bf6b22c8ab5d5004062fed70275d"
+    },
+    {
+      "path": "active/ch06/basic-definitions.md",
+      "sha256": "80fa0941643ab68504ed812c53e12ccf8a80738896351a14a7f036e72bc9db89"
+    },
+    {
+      "path": "active/ch06/closure-operations-on-relations.md",
+      "sha256": "2d28564004d83f0a6877ea04c9367328e3ece07a092614ceea158dc8fe09a4d0"
+    },
+    {
+      "path": "active/ch06/graphs-of-relations-on-a-set.md",
+      "sha256": "889774ae590f741701e65011eb757908c7dfd236223cb32006458efc1b8f666e"
+    },
+    {
+      "path": "active/ch06/index.md",
+      "sha256": "6d7715f46e167e8326405a8e029b1b0d4c5aaef4b944b8f2d7c14f6e9d63a1ee"
+    },
+    {
+      "path": "active/ch06/matrices-of-relations.md",
+      "sha256": "99324fbf7348974ea0f04b7b53bd3892442c09572bc95aa2111ec81486380605"
+    },
+    {
+      "path": "active/ch06/properties-of-relations.md",
+      "sha256": "f2b033f2bfd6ad14d9cbec863a4e9653151faf99bf8735dcfda62540a016bdf4"
+    },
+    {
+      "path": "active/ch07/basic-notions-of-probability.md",
+      "sha256": "118668c644885fb816b1495beaec01c32e83bed062bd38684f714e8041fddaa1"
+    },
+    {
+      "path": "active/ch07/binomial-processes.md",
+      "sha256": "88f94166cfaf3a7f5ba18de109ee4efdfc5cf8e4484ca4c0f7ad65296fb9469e"
+    },
+    {
+      "path": "active/ch07/definition-and-notation.md",
+      "sha256": "ca917714eedf339f21314542104177d7b479a2a2e9920947ab85b475661f72e6"
+    },
+    {
+      "path": "active/ch07/function-composition.md",
+      "sha256": "db80928329fa07ee7913af33016d592f11c3b39c996444baf3db541f671ae875"
+    },
+    {
+      "path": "active/ch07/index.md",
+      "sha256": "444adb586ff156cd900099883e77e4d595845b23fdb81ea395d9684c683790ba"
+    },
+    {
+      "path": "active/ch07/properties-of-functions.md",
+      "sha256": "ac0ad81a5a96c7097e3ec80e79c9702dc02501ddc34abfe993c334e1c4849d65"
+    },
+    {
+      "path": "active/ch08/generating-functions.md",
+      "sha256": "2876df5d43c5969ae4afb65af6f169c493c1971bb7a7ea5abd32c4a98cd81bb9"
+    },
+    {
+      "path": "active/ch08/index.md",
+      "sha256": "999093d7089a9ab5c3134d540750bb0f64ea906cbaafa0d5e64036df78abf679"
+    },
+    {
+      "path": "active/ch08/recurrence-relations.md",
+      "sha256": "2a4f7cb8b492037aaf24335e746246cf9de43f7f383780fa2018b8a8ed944df0"
+    },
+    {
+      "path": "active/ch08/sequences.md",
+      "sha256": "7cf4ef5e341425e48d498e2e90326c846878ade631939dba829704a4f8d86033"
+    },
+    {
+      "path": "active/ch08/some-common-recurrence-relations.md",
+      "sha256": "ff57958e05d79a21cc7ba177e18ccc0f0fe83d1b1322aece968e8e81e065834e"
+    },
+    {
+      "path": "active/ch08/the-many-faces-of-recursion.md",
+      "sha256": "330d224d88a382a4fa8d4c95b6bce3fbcd8b6fb61da94318c339fd6919286243"
+    }
+  ]
+}

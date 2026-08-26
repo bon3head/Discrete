@@ -1,0 +1,77 @@
+{
+  "fixture_results": [
+    {
+      "id": "fix1",
+      "desc": "Full happy path",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix2",
+      "desc": "Malformed response",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix3",
+      "desc": "Missing response",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix4",
+      "desc": "L1->L2 escalation",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix5",
+      "desc": "L4 without attempt blocked",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix6",
+      "desc": "Mock exam flow",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix7",
+      "desc": "smoke command",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix8",
+      "desc": "validate idempotence",
+      "passed": true,
+      "actual_passed": true
+    },
+    {
+      "id": "fix9",
+      "desc": "verify_corpus_baseline",
+      "passed": true,
+      "actual_passed": true
+    }
+  ],
+  "smoke_results": {
+    "passed": true,
+    "output": "Running smoke tests...\nSmoke 1 (Happy path): PASS\nSmoke 2 (L4 without attempt): PASS\nSmoke 3 (Appendix F pre-attempt): PASS\n"
+  },
+  "mutation_result": {
+    "mutation": "bypass guard in CLI validate",
+    "detected": true,
+    "detector_exit_code": 1,
+    "source_sha_restored": true
+  },
+  "review": {
+    "method": "subagent independent review",
+    "p0_findings": 1,
+    "p1_findings": 4
+  },
+  "integrity": {
+    "raw_source_matches": "78/78",
+    "corpus_active_baseline": "OK"
+  }
+}

@@ -27,3 +27,5 @@ Affected file/path: `tutor/response_guard.py`
 Evidence: Implicit citations (referencing a theorem by name without adding a citation object) cannot be detected.
 Why it violates a specific Phase 3A/3B rule: Structural constraint only; cannot detect semantic bypasses.
 Minimal recommended fix: Document this limitation. No code fix required.
+
+**Correction Note**: The Phase 3B reviewer subagent hit a network error; the review was actually performed by the main agent (self-review). Findings 1–2 were nonetheless converted to permanent regression tests; mutation detection independently verified the guard.

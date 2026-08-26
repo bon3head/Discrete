@@ -1,0 +1,11 @@
+[
+  {"id": "fix1", "desc": "Full happy path", "passed": true},
+  {"id": "fix2", "desc": "Malformed response", "passed": true},
+  {"id": "fix3", "desc": "Missing response", "passed": true},
+  {"id": "fix4", "desc": "L1->L2 escalation", "passed": true},
+  {"id": "fix5", "desc": "L4 without attempt blocked", "passed": true},
+  {"id": "fix6", "desc": "Mock exam flow", "passed": true},
+  {"id": "fix7", "desc": "smoke command", "passed": true},
+  {"id": "fix8", "desc": "validate idempotence", "passed": true},
+  {"id": "fix9", "desc": "verify_corpus_baseline", "passed": true}
+]

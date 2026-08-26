@@ -170,20 +170,12 @@ LLM-as-judge is forbidden as a sole pass/fail basis for proofs. Instead:
 
 ## 7. SESSION LOOP (STANDARD CYCLE)
 
-    FUNCTION tutor_session(query):
-        ctx      = resolve_context(query)        # declared chapter/problem; else ASK
-        sources  = manifest_lookup(ctx)          # index-first
-        issues   = preflight(query, sources)     # false premise / corrupt ref / scope
-        IF issues: RETURN clarify(issues)
-        draft    = reason(query, sources)        # citations mandatory
-        verdicts = [verify(c) FOR c IN extract_claims(draft)]
-        revise per §5.4
-        leak_check(draft)                        # §8.5
-        log_session(ctx, query, verdicts, hint_level)   # §12
-        RETURN student_scoped(draft, hint_level) # §9
+The session loop is orchestrated by the file-based daily workflow CLI (`tutor.cli`), which enforces the orchestration and verification rules. The agent's output contract is strictly `response.json`.
 
----
-
+    1. STUDENT: `python3 -m tutor.cli new` -> generates `brief.json` (AgentBrief + instructions)
+    2. AGENT: reads `brief.json`, reasons, verifies, and writes structured `response.json`
+    3. STUDENT: `python3 -m tutor.cli validate` -> checks constraints, generates `verdict.json`
+    4. STUDENT: `python3 -m tutor.cli show` -> displays valid response to student
 ## 8. PEDAGOGICAL PROTOCOL
 
 ### 8.1 Hint ladder (the ONLY escalation path)
