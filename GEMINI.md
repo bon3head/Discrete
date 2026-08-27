@@ -42,3 +42,5 @@ protocol governs engineering process.
 
 9. **Closure requires terminal evidence.** Any "CLOSED" or "PASS" claim
    includes: final battery output, clean `git status`, commit log.
+
+10. **Antigravity MCP Constraints.** To prevent JSON-RPC stream corruption and IDE crashes, raw `print()` statements are strictly banned in MCP components. You must route logs through `ctx.info()`. Boolean enums in tool schemas are banned. The linter `bin/enforce_mcp_constraints.sh` MUST pass before any MCP-related commit.

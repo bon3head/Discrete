@@ -29,14 +29,12 @@ def test_sympy_worker_syntax_error():
     assert res["status"] == "error"
     assert "Parse Error" in res["error"]
 
-def test_async_wrapper_timeout():
-    async def run_test():
-        def slow_worker(expr1, expr2, queue):
-            time.sleep(100)
-        
-        with patch("tutor.verify_engine._sympy_worker", side_effect=slow_worker):
-            res = await verify_equivalence_safe("x", "x", timeout=0.2)
-            assert res["status"] == "error"
-            assert "timeout" in res["error"].lower()
-            
-    asyncio.run(run_test())
+@pytest.mark.asyncio
+async def test_async_wrapper_timeout():
+    def slow_worker(expr1, expr2, queue):
+        time.sleep(100)
+    
+    with patch("tutor.verify_engine._sympy_worker", side_effect=slow_worker):
+        with pytest.raises(TimeoutError) as exc_info:
+            await verify_equivalence_safe("x", "x", timeout=0.2)
+        assert "exceeded timeout" in str(exc_info.value)

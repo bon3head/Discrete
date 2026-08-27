@@ -34,23 +34,33 @@ def _sympy_worker(expr1_str: str, expr2_str: str, queue: multiprocessing.Queue):
     except Exception as e:
         queue.put({"status": "error", "error": f"Parse Error: {str(e)}"})
 
-async def verify_equivalence_safe(expr1: str, expr2: str, timeout: float = 5.0):
+async def verify_equivalence_safe(expr1: str, expr2: str, timeout: float = 5.0) -> bool:
+    """
+    Manages the sympy worker process. Uses Process.terminate() to guarantee
+    no zombie processes are left behind if SymPy hangs.
+    """
+    # Using fork only to allow unittest.mock.patch to propagate to the child process in tests.
     ctx = multiprocessing.get_context("fork")
     queue = ctx.Queue()
     p = ctx.Process(target=_sympy_worker, args=(expr1, expr2, queue))
     p.start()
-    
+
     async def _wait_for_result():
         while p.is_alive() and queue.empty():
             await asyncio.sleep(0.05)
         if not queue.empty():
             return queue.get()
-        return {"status": "error", "error": "Process died unexpectedly"}
-        
+        return None
+
     try:
-        result = await asyncio.wait_for(_wait_for_result(), timeout=timeout)
-        return result
-    except asyncio.TimeoutError:
-        p.terminate()
+        res = await asyncio.wait_for(_wait_for_result(), timeout=timeout)
         p.join()
-        return {"status": "error", "error": "timeout"}
+        if res and res["status"] == "ok":
+            return res["result"]
+        if res and res["status"] == "error":
+            raise ValueError(res["error"])
+        raise RuntimeError("Worker process died unexpectedly.")
+    except asyncio.TimeoutError:
+        p.terminate()  # HARD KILL to prevent zombie processes
+        p.join()
+        raise TimeoutError(f"SymPy execution exceeded timeout of {timeout}s")
