@@ -26,6 +26,10 @@ def _sympy_worker(expr1_str: str, expr2_str: str, queue: multiprocessing.Queue):
     
     try:
         # CRITICAL: Empty dictionaries prevent __builtins__ eval exploits
+        if "__" in expr1_str or "__" in expr2_str:
+            queue.put({"status": "error", "error": "Parse Error: ACE attempt detected (dunder methods blocked)"})
+            return
+
         e1 = sympy.parse_expr(expr1_str, evaluate=False, global_dict=safe_dict, local_dict={})
         e2 = sympy.parse_expr(expr2_str, evaluate=False, global_dict=safe_dict, local_dict={})
         
