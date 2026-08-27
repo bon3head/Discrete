@@ -2,6 +2,7 @@ import os
 import sys
 import multiprocessing
 import sympy
+import asyncio
 
 def _sympy_worker(expr1_str: str, expr2_str: str, queue: multiprocessing.Queue):
     """
@@ -32,3 +33,24 @@ def _sympy_worker(expr1_str: str, expr2_str: str, queue: multiprocessing.Queue):
         queue.put({"status": "ok", "result": is_equiv})
     except Exception as e:
         queue.put({"status": "error", "error": f"Parse Error: {str(e)}"})
+
+async def verify_equivalence_safe(expr1: str, expr2: str, timeout: float = 5.0):
+    ctx = multiprocessing.get_context("fork")
+    queue = ctx.Queue()
+    p = ctx.Process(target=_sympy_worker, args=(expr1, expr2, queue))
+    p.start()
+    
+    async def _wait_for_result():
+        while p.is_alive() and queue.empty():
+            await asyncio.sleep(0.05)
+        if not queue.empty():
+            return queue.get()
+        return {"status": "error", "error": "Process died unexpectedly"}
+        
+    try:
+        result = await asyncio.wait_for(_wait_for_result(), timeout=timeout)
+        return result
+    except asyncio.TimeoutError:
+        p.terminate()
+        p.join()
+        return {"status": "error", "error": "timeout"}
