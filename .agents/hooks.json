@@ -1,0 +1,16 @@
+{
+  "enforce-mcp-determinism": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/var/home/justin/PROJECTS/New-Paltz/Fall2026/Discrete/bin/block_bash_tutoring.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

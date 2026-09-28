@@ -18,8 +18,10 @@ async def mcp_verify_equivalence(expr1: str, expr2: str) -> CallToolResult:
             return CallToolResult(content=[TextContent(type="text", text='PASS')])
         else:
             return CallToolResult(content=[TextContent(type="text", text='FAIL: Expressions are not mathematically equivalent')])
+    except TimeoutError as e:
+        return CallToolResult(content=[TextContent(type="text", text=f'UNVERIFIABLE: {str(e)}')])
     except Exception as e:
-        return CallToolResult(is_error=True, content=[TextContent(type="text", text=f'FAIL: {str(e)}')])
+        return CallToolResult(is_error=True, content=[TextContent(type="text", text=f'ERROR: {str(e)}')])
 
 @mcp.tool()
 async def mcp_verify_proof(steps: List[ProofStep]) -> CallToolResult:
@@ -29,5 +31,7 @@ async def mcp_verify_proof(steps: List[ProofStep]) -> CallToolResult:
             if not is_equiv:
                 return CallToolResult(content=[TextContent(type="text", text=f'FAIL at step {step.step_num}: {step.expr1} != {step.expr2}')])
         return CallToolResult(content=[TextContent(type="text", text='PASS')])
+    except TimeoutError as e:
+        return CallToolResult(content=[TextContent(type="text", text=f'UNVERIFIABLE: {str(e)}')])
     except Exception as e:
-        return CallToolResult(is_error=True, content=[TextContent(type="text", text=f'FAIL: {str(e)}')])
+        return CallToolResult(is_error=True, content=[TextContent(type="text", text=f'ERROR: {str(e)}')])

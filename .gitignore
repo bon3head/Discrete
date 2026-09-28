@@ -5,3 +5,7 @@ __pycache__/
 runtime/session_logs/
 runtime/
 planning/phase0/source_hash_verification.json
+scratch/
+test_parse.py
+npx_output.txt
+.venv/

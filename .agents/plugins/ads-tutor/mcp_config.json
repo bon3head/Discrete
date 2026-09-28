@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ads-tutor": {
+      "command": "/var/home/justin/PROJECTS/New-Paltz/Fall2026/Discrete/bin/run_mcp.sh"
+    }
+  }
+}
